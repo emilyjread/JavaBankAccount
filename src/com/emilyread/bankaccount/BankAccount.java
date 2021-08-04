@@ -69,8 +69,7 @@ public class BankAccount {
 	public double seeTotal() {
 		double accountsTotal = this.savingsBalance + this.checkingBalance;
 		System.out.println("Total money in both accounts: $" + accountsTotal);
-		return accountsTotal; 
-		
+		return accountsTotal; 	
 	}
 	
 	private static String generateAccountNumber() {
@@ -80,10 +79,6 @@ public class BankAccount {
 			Random r= new Random();
 			acctNo += r.nextInt(10);
         }
-		return acctNo;
-		
-		
+		return acctNo;	
 	}
-
-
 }
